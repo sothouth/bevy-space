@@ -14,7 +14,7 @@
 	"updateContentCommand": "cargo build",
 	"postCreateCommand": "",
 	"postAttachCommand": {
-		"server": "cargo run"
+		"commands": "cargo run"
 	},
 	"customizations": {
 		"codespaces": {
