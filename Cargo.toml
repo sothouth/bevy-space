@@ -1,0 +1,12 @@
+[package]
+name = "bevy-space"
+version = "0.1.0"
+edition = "2021"
+resolver = "2"
+
+[dependencies]
+
+
+[dependencies.bevy]
+version = "*"
+features = ["dynamic_linking"]
