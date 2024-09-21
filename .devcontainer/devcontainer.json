@@ -4,7 +4,7 @@
 	"name": "bevy-space",
 	"build": {
 		"context": "..",
-		"dockerfile": "..Dockerfile"
+		"dockerfile": "../Dockerfile"
 	},
 	// "image": "rustlang/rust:nightly-slim",
 	// "image": "DOCKER.IO/LIBRARY/BEVY-SPACE:LATEST",
