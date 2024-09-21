@@ -13,7 +13,9 @@
 	"waitFor": "onCreateCommand",
 	"updateContentCommand": "cargo build",
 	"postCreateCommand": "",
-	"postAttachCommand": "cargo run",
+	"postAttachCommand": {
+		"server": "cargo run"
+	},
 	"customizations": {
 		"codespaces": {
 			"openFiles": [
